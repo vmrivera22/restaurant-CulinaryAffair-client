@@ -1,0 +1,89 @@
+.dish--container{
+    border: 1px solid gray;
+    min-height: 300px;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.ingredient--item--text{
+    margin-left: 5px;
+}
+
+.ingredient--item{
+    display: flex;
+    margin: 10px;
+}
+
+.menu--title{
+    grid-area: title;
+    font-size: 25px;
+    margin-bottom: 15px;
+    text-decoration: underline;
+}
+
+.menu--description{
+    text-align: start;
+    grid-area: description;
+}
+
+.menu--image{
+    grid-area: image;
+    width: 80%;
+    max-width: 400px;
+    max-height: 400px;
+    margin-left: auto;
+}
+
+.menu--price{
+    grid-area: price;
+    font-size: 15px;
+    margin-top: 15px;
+    font-weight: 700;
+}
+
+.menu--item{
+    display: grid;
+    grid-template-columns: 10% 40% 50%;
+    grid-template-rows: 25% 60% 15%;
+    grid-template-areas: 
+    "title title image"
+    "description description image"
+    "price price image";
+    padding: 10px;
+    border: 1px solid rgba(226, 225, 225, 0.632);
+    margin: 0px auto;
+}
+
+@media only screen and (max-width: 700px){
+    .menu--item{
+        grid-template-columns: auto;
+        grid-template-rows: 20% 60% 15% 5%;
+        grid-template-areas: 
+        "title"
+        "image"
+        "description"
+        "price";
+    }
+    .menu--description{
+        text-align: center;
+        margin-top: 25px;
+        grid-area: description;
+    }
+    
+    .menu--image{
+        grid-area: image;
+        width: 80%;
+        max-width: 400px;
+        max-height: 400px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .menu--price{
+        grid-area: price;
+        font-size: 15px;
+        margin-top: 15px;
+        font-weight: 700;
+    }
+}

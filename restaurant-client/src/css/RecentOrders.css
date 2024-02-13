@@ -1,0 +1,44 @@
+.recent--orders{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: scroll;
+    scrollbar-width: none;
+}
+
+.recent--orders::-webkit-scrollbar{
+    display: none;
+}
+
+
+.order--items{
+    margin-top: 20px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.order--total{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.order--date{
+    position: fixed;
+    bottom: 20px;
+    width: 100%;
+    padding: 20px 50px 0px 0px;
+    display: flex;
+    flex-direction: column;
+
+    
+}
+
+.order--date p{
+    align-self: end;
+    color: rgba(80, 79, 79, 0.73);
+    font-size: 13px;
+}

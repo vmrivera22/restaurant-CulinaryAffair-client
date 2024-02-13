@@ -1,0 +1,14 @@
+.locations--container{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    min-height: 700px;
+    margin: 20px auto;
+    padding: 30px;
+}
+
+.locations--container h1{
+    text-decoration: underline;
+    margin-bottom: 10px;
+    font-size: 20px;
+}

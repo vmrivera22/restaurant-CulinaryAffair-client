@@ -1,0 +1,43 @@
+.black{
+    color: black;
+    text-decoration: none;
+}
+
+.white{
+    color: white;
+    text-decoration: none;
+}
+
+.white--bg{
+    background-color: white;
+}
+
+.sticky{
+    position: sticky;
+    top: 0;
+    right: 0;
+}
+
+.shadow{
+    box-shadow: 0.1em 0.1em 0.1em 0.02em rgb(225, 224, 224);
+}
+
+.title{
+    margin: 30px auto;
+    font-size: 30px;
+}
+
+.background{
+    background:linear-gradient(0deg, rgba(0, 0, 0, 0.648), rgba(1, 1, 1, 0.687)), url("../assets//background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.border--1px{
+    border: 1px solid rgb(225, 224, 224);
+}
+
+.container--width{
+    width: 93%;
+    max-width: 750px;
+}
