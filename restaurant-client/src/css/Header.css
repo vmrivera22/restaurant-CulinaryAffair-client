@@ -7,7 +7,7 @@
 }
 
 .header--right--links{
-    margin: 0 20px 0 auto;
+    margin: 0 37px 0 auto;
     display: flex;
     gap: 20px;
     list-style: none;
@@ -15,7 +15,7 @@
 
 
 .header--left--links{
-    margin-left: 20px;
+    margin-left: 33px;
     padding: 0;
 }
 
